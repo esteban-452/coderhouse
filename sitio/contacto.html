@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talemec - Contacto</title>
+    <meta name="description"
+        content="Talemec - Tecnología Europea, formulario de contacto para cualquier tipo de consulta que tengas.">
+    <meta name="keywords" content="contacto, ventas, consultas, talemec, racks, gabinetes, servidores, industria electrica, telecomunicaciones, gabinetes estancos, gabinetes modulares, gabinetes y racks">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- Mi propio CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top navbar__base">
+
+        <a class="navbar-brand" href="#"><img src="../imagenes/logo.png" alt="Logo Talemec" class="img-fluid" /></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+            <div class="navbar-nav">
+                <a class="nav-item nav-link texto__boton texto__boton--navbar" href="../index.html">Inicio</a>
+                <a class="nav-item nav-link texto__boton texto__boton--navbar active" href="#">Contacto</a>
+                <a class="nav-item nav-link texto__boton texto__boton--navbar" href="../sitio/productos.html">Productos</a>
+                <a class="nav-item nav-link texto__boton texto__boton--navbar" href="../sitio/blog.html">Novedades</a>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <main>
+
+        <section class="container seccion__base mt-2 p-4 mb-5">
+
+            <div class="row">
+
+                <!--
+
+                        REHACEME PELOTUDO
+                        CLARAMENTE NO TENES IDEA DE QUE INTENTASTE HACER
+                        CON ESA ENSALADA DE MIERDA DE COLS Y ROWS
+                        PONETE LAS PILAS Y HACE ALGO COMPETENTE SIN RECURRIR A WORKAROUNDS ESTUPIDOS
+                        FIRMA ATENTAMENTE: ESTEBAN DE LAS 19:57 DE HOY
+
+                -->
+
+                <div class="col">
+                    <form>
+                        <div class="row m-1 g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="formUsuario" class="col-form-label">Nombre y Apellido / Razón Social</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="text" id="formUsuario" class="form-control"
+                                    aria-describedby="usuarioHelpInline" />
+                            </div>
+                        </div>
+
+                        <div class="row m-1 g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="formEmail" class="form-label">Email</label>
+                            </div>
+                            <div class="col-auto">
+                                <input type="email" id="formEmail" class="form-control"
+                                    aria-describedby="emailHelpInline" />
+                            </div>
+                        </div>
+
+                        <div class="row m-1 g-3 align-items-center">
+                            <div class="col-auto">
+                                <div class="input-group">
+                                    <label class="input-group-text" for="formAsunto">Asunto</label>
+                                    <select class="form-select" id="formAsunto">
+                                        <option value="consulta" selected>Consulta</option>
+                                        <option value="ventas">Ventas</option>
+                                        <option value="empleo">Empleo</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row m-1 g-3 align-items-center">
+                            <div class="col-auto">
+                                <div class="m-1 g-3 align-items-center">
+                                    <label for="formConsulta" class="form-label">Cuerpo del mensaje</label>
+                                    <textarea class="form-control" id="formConsulta" rows="6"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row m-1 g-3 align-items-center">
+                            <div class="col-auto">
+                                <div class="form-check m-1 g-3 align-items-center">
+                                    <input class="form-check-input" type="checkbox" value="confirmarSus"
+                                        id="flexCheckChecked" checked />
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Deseo suscribirme a la Newsletter
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-primary m-1">Enviar</button>
+                        <button type="reset" class="btn btn-danger m-1">Borrar formulario</button>
+                    </form>
+
+                </div>
+
+                <div class="col p-4">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1161.7023120524552!2d-58.59353804888936!3d-34.55886371639182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb98062698f79%3A0x4e228df5ad4878e6!2sTalemec!5e0!3m2!1ses-419!2sar!4v1630448412919!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer__base">© Talemec</footer>
+
+    <script src="../js/jquery-3.2.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

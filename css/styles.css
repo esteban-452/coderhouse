@@ -1,0 +1,108 @@
+* {
+  /* arreglo del css para que ande la navbar bien (gracias Nico!)*/
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*estilo PC*/
+
+@media only screen and (min-width: 961px) {
+  .card-img-top {
+    width: 100%;
+    height: 12vw;
+    object-fit: cover;
+  }
+}
+
+/*estiloTABLET*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/*estiloCELU*/
+
+@media only screen and (max-width: 400px) {
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.boxImagen {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 3px;
+  height: auto;
+  width: 250px;
+  max-width: 100%;
+}
+
+/*------  navbarCSS  ------*/
+
+.navbar__base {
+
+}
+
+/* here goes navbar stuff*/
+
+/* fin de navbar stuff*/
+
+/*------  headerCSS  ------*/
+
+.header__base {
+
+}
+
+/* here goes header stuff*/
+
+/* fin de header stuff*/
+
+/*------  seccionCSS  ------*/
+
+.seccion__base {
+
+}
+
+/* here goes seccion stuff*/
+
+/* fin de seccion stuff*/
+
+/*------  imagenCSS  ------*/
+
+.imagen__base {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* here goes imagen stuff*/
+
+/* fin de imagen stuff*/
+
+/*------  textoCSS  ------*/
+
+.texto__base {
+
+}
+
+/* here goes texto stuff*/
+
+/* fin de texto stuff*/
+
+/*------  footerCSS  ------*/
+
+.footer__base {
+
+}
+
+/* here goes footer stuff*/
+
+/* fin de footer stuff*/
