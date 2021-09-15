@@ -1,0 +1,8 @@
+Agregado un titulo algo más descriptivo al index.html
++ a las otras subpáginas les agregue el nombre al lado del nombre de la pyme
+Agregado descripción
+Keywords a todas las páginas
+Los otros h1 exceptuados al principal cambiados a h2 en index.html
+Removido Lorem que quedaba en blog.html
+Creada una página 404
+Creado sitemap

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://esteban-452.github.io/coderhouse/</title>
+  <link>https://esteban-452.github.io/coderhouse/</link>
+
+<item>
+     <link>https://esteban-452.github.io/coderhouse/</link>
+     <title>Talemec - Tecnología Europea</title>
+     <description>Talemec - Tecnología Europea, brinda Gabinetes y Racks Calidad y Seguridad con el cumplimiento de normas internacionales Tecnología Europea con fabricación nacional.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://esteban-452.github.io/coderhouse/sitio/contacto.html</link>
+     <title>Talemec - Contacto</title>
+     <description>Talemec - Tecnología Europea, formulario de contacto para cualquier tipo de consulta que tengas.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://esteban-452.github.io/coderhouse/sitio/productos.html</link>
+     <title>Talemec - Productos</title>
+     <description>Talemec - Tecnología Europea, listado de productos que ofrecemos.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://esteban-452.github.io/coderhouse/sitio/blog.html</link>
+     <title>Talemec - Newsletter</title>
+     <description>Talemec - Tecnología Europea, blog con las últimas noticias.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://esteban-452.github.io/coderhouse/index.html</link>
+     <title>Talemec - Tecnología Europea</title>
+     <description>Talemec - Tecnología Europea, brinda Gabinetes y Racks Calidad y Seguridad con el cumplimiento de normas internacionales Tecnología Europea con fabricación nacional.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
