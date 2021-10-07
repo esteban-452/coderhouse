@@ -138,3 +138,17 @@ body{
     background-color: rgb(0, 54, 5);
     color: white;
 }
+
+/* fix para BS Carousel pequeño fuera de PC */
+
+.img-carousel { min-width: 800px;}
+
+@media (max-width: 768px) { 
+    .carousel .carousel-inner .item {
+        height: 500px;
+    }
+}
+
+.card{
+  min-height:580px;
+}

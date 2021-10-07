@@ -9,7 +9,8 @@
     <title>Talemec - Contacto</title>
     <meta name="description"
         content="Talemec - Tecnología Europea, formulario de contacto para cualquier tipo de consulta que tengas.">
-    <meta name="keywords" content="contacto, ventas, consultas, talemec, racks, gabinetes, servidores, industria electrica, telecomunicaciones, gabinetes estancos, gabinetes modulares, gabinetes y racks">
+    <meta name="keywords"
+        content="contacto, ventas, consultas, talemec, racks, gabinetes, servidores, industria electrica, telecomunicaciones, gabinetes estancos, gabinetes modulares, gabinetes y racks">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,10 +36,10 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 
             <div class="navbar-nav">
-                <a class="nav-item nav-link texto__boton texto__boton--navbar" href="../index.html">Inicio</a>
-                <a class="nav-item nav-link texto__boton texto__boton--navbar active" href="#">Contacto</a>
-                <a class="nav-item nav-link texto__boton texto__boton--navbar" href="../sitio/productos.html">Productos</a>
-                <a class="nav-item nav-link texto__boton texto__boton--navbar" href="../sitio/blog.html">Novedades</a>
+                <a class="nav-item nav-link texto__boton texto__boton--navbar active" href="../index.html">Inicio</a>
+                <a class="nav-item nav-link texto__boton texto__boton--navbar" href="contacto.html">Productos</a>
+                <a class="nav-item nav-link texto__boton texto__boton--navbar" href="blog.html">Novedades</a>
+                <a class="nav-item nav-link texto__boton texto__boton--navbar" href="#">Contacto</a>
             </div>
 
         </div>
@@ -54,30 +55,30 @@
                 <div class="col">
                     <form>
                         <div class="row m-1 g-3 align-items-center">
-                            <div class="col-auto">
+                            <div class="col-6">
                                 <label for="formUsuario" class="col-form-label">Nombre y Apellido / Razón Social</label>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-6">
                                 <input type="text" id="formUsuario" class="form-control"
                                     aria-describedby="usuarioHelpInline" />
                             </div>
                         </div>
 
                         <div class="row m-1 g-3 align-items-center">
-                            <div class="col-auto">
+                            <div class="col-6">
                                 <label for="formEmail" class="form-label">Email</label>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-6">
                                 <input type="email" id="formEmail" class="form-control"
                                     aria-describedby="emailHelpInline" />
                             </div>
                         </div>
 
                         <div class="row m-1 g-3 align-items-center">
-                            <div class="col-auto">
+                            <div class="col-12">
                                 <div class="input-group">
                                     <label class="input-group-text" for="formAsunto">Asunto</label>
-                                    <select class="form-select" id="formAsunto">
+                                    <select class="form-select text-center" id="formAsunto">
                                         <option value="consulta" selected>Consulta</option>
                                         <option value="ventas">Ventas</option>
                                         <option value="empleo">Empleo</option>
@@ -88,7 +89,7 @@
                         </div>
 
                         <div class="row m-1 g-3 align-items-center">
-                            <div class="col-auto">
+                            <div class="col-12">
                                 <div class="m-1 g-3 align-items-center">
                                     <label for="formConsulta" class="form-label">Cuerpo del mensaje</label>
                                     <textarea class="form-control" id="formConsulta" rows="6"></textarea>
@@ -114,25 +115,26 @@
 
                 </div>
 
-                <div class="col p-4">
+                <div class="col p-3 mt-2">
 
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1161.7023120524552!2d-58.59353804888936!3d-34.55886371639182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb98062698f79%3A0x4e228df5ad4878e6!2sTalemec!5e0!3m2!1ses-419!2sar!4v1630448412919!5m2!1ses-419!2sar"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        width="" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
                 </div>
 
             </div>
 
-        </div>
+            </div>
 
     </main>
 
-    <footer class="footer__base">© Talemec</footer>
+    <footer class="footer__base">© Talemec - <a href="tel:4000-0000" class="text-light">Llamanos 📲</a> - ¡O seguinos en
+        <a href="www.instagram.com" class="text-light">Instagram</a>!</footer>
 
-    <script src="../js/jquery-3.2.1.slim.min.js"></script>
-    <script src="../js/popper.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
 
 </body>
 

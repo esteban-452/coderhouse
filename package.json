@@ -1,5 +1,5 @@
 {
-  "name": "clase012_estebanchianese",
+  "name": "coderhouse_htmlcss_github",
   "version": "1.0.0",
   "description": "3er entrega del proyecto final",
   "main": "index.js",
@@ -12,6 +12,17 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
-  }
+    "nodemon": "^2.0.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esteban-452/coderhouse.git"
+  },
+  "keywords": [
+    "coderhouse"
+  ],
+  "bugs": {
+    "url": "https://github.com/esteban-452/coderhouse/issues"
+  },
+  "homepage": "https://github.com/esteban-452/coderhouse#readme"
 }

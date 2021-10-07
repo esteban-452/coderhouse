@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   /* arreglo del css para que ande la navbar bien (gracias Nico!)*/
   padding: 0;
@@ -100,3 +101,14 @@ body {
   text-align: center;
   background-color: #003605;
   color: white; }
+
+/* fix para BS Carousel pequeño fuera de PC */
+.img-carousel {
+  min-width: 800px; }
+
+@media (max-width: 768px) {
+  .carousel .carousel-inner .item {
+    height: 500px; } }
+
+.card {
+  min-height: 580px; }
